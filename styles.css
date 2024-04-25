@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgba( 0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.8); /* Dark text color */
+    font-family: Robotobold, sans-serif;
+    line-height: 1.2;
+    font-size: 1em;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    margin: 30px;
+}
+#description{
+    text-align: center;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
+#img-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 3px #666666;
+    border-radius: 2px;
+}
+
+#img-caption {
+    font-style: italic;
+    margin-top: 8px;
+    opacity: 80%;
+    font-size: 0.8em;
+    text-shadow: 3px 3px 3px #666666;
+}
+
+section {
+    width: 636px;
+    margin: 20px auto;
+    background-color: rgba( 0, 0, 0, 0.3);
+    box-shadow: 3px 3px 3px #666666;
+    padding: 10px 20px 10px 20px;
+    border-radius: 2px;
+}
+
+h2,h3 {
+    color: #373737;
+    margin: 10px 0 2px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px; /* Add some spacing between list items */
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #373737;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    opacity: 80%;
+    font-size: 0.8em;
+    text-shadow: 1px 1px 1px #666666;
+    font-style: italic;
+}
+
+a:hover {
+    color: blue; /* Lighter warm brown on hover */
+}
