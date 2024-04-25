@@ -85,4 +85,9 @@ a {
 a:hover {
     color: blue; /* Lighter warm brown on hover */
 }
-g
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%; /* Adjust width for smaller screens */
+    }
+}
